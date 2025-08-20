@@ -1,24 +1,248 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 10</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 10 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: La Aventura de Programar a Dart</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Crear una secuencia visual (un camino) para que un robot la siga.</li>
+<li>Observar cómo el robot ejecuta el plan.</li>
+<li>Experimentar con diferentes tipos de secuencias (rectas, curvas).</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: ¡Despertando Nuestros Superpoderes de Movimiento! (Juego del Espejo)</li>
+<li>⚡ Actividad 2: ¡El Misterio de Dart y Sus Caminos! (Recordando a Dart)</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! Diseñando la Pista Perfecta para Dart</li>
+<li>⚡ Actividad 4: ¡Misión Cumplida! Compartiendo Nuestros Descubrimientos</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación de una pista gráfica continua y funcional para Dart.</li>
+<li>Demostración de cómo Dart sigue la secuencia diseñada.</li>
+<li>Explicación simple del camino que Dart siguió.</li>
+</ul>
+<br>
+<strong>Criterios de Evaluación (Observación):</strong>
+<ul>
+<li>Dibuja una línea continua y visible (negra y gruesa) para que el robot la siga.</li>
+<li>Coloca a Dart correctamente al inicio de la línea para iniciar la prueba.</li>
+<li>Describe el resultado de su plan ("Dart siguió el camino", "No lo siguió", "Se salió").</li>
+<li>Participa activamente en el diseño y la prueba de la pista.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Dart The Chameleon</li>
+<li>Papel grande (rotafolio)</li>
+<li>Marcadores negros gruesos</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos (Dart cargado, marcadores con tinta, papel suficiente).</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad: un espacio abierto para el juego del espejo y áreas de trabajo (mesas o el suelo) para los grupos de diseño de pistas.</li>
+<li><strong>Familiarización con el Playbook:</strong> Leer el playbook completo, prestando especial atención a los diálogos sugeridos y las transiciones entre actividades. Practicar las frases clave para una entrega fluida y entusiasta.</li>
+<li><strong>Preparación Visual (Opcional):</strong> Si se utilizan diapositivas, asegurarse de que estén listas para proyectar en los momentos indicados.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Despertando Nuestros Superpoderes de Movimiento! ⏰ 5 min</h2>
+<p>¡Listos para mover el esqueleto y preparar nuestra mente para una misión emocionante!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Juego del Espejo: Calentamiento de Cuerpo y Mente ⏰ 3 min</h3>
+<p>Invita a los niños a formar un círculo o un espacio abierto. Explica que van a jugar a ser "espejos" y copiarán todos tus movimientos. <strong>(Proyectar Diapositiva 1: Título de la Actividad y Imagen de Espejo/Movimiento)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, superhéroes de la tecnología! ¿Listos para arrancar nuestra misión del día? ¡Pero antes, vamos a calentar esos cerebros y esos cuerpos! Hoy vamos a jugar al "Espejo Mágico". Yo voy a hacer un movimiento, ¡y ustedes serán mi espejo, copiándolo exactamente! ¿Están listos para seguir el plan? ¡A la cuenta de tres, empezamos: uno, dos, TRES! ¡Vamos a movernos como robots, como animales, como si tuviéramos resortes en los pies! ¡Eso es, equipo, estamos siguiendo un plan, justo como Dart! ¡Qué energía! (Realiza movimientos variados y divertidos: estirarse, saltar en un pie, girar, agacharse, etc. Anima a los niños a imitarte con entusiasmo).</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Magia de Seguir un Plan ⏰ 2 min</h3>
+<p>Después de varios movimientos, detente y reflexiona con ellos sobre la actividad. Conecta el juego con la idea de "seguir un plan" o "una secuencia de instrucciones". <strong>(Proyectar Diapositiva 2: Imagen de una secuencia simple o un camino)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué espejos tan increíbles son! ¿Se dieron cuenta de que para jugar al "Espejo Mágico" tuvimos que seguir un plan? Yo hacía un movimiento, y ustedes ¡puf! lo copiaban. ¡Eso es como seguir instrucciones, como un robot que sigue un camino! Hoy vamos a ser ingenieros de caminos, ¡y Dart va a ser nuestro robot que sigue nuestros planes! ¿Están listos para crear planes maravillosos? ¡Síííí!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡El Misterio de Dart y Sus Caminos! ⏰ 5 min</h2>
+<p>Recordemos a nuestro amigo Dart y descubramos cómo podemos ayudarlo a seguir nuevas y emocionantes aventuras.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Reencuentro con Dart: Nuestro Amigo Seguidor de Líneas ⏰ 3 min</h3>
+<p>Presenta a Dart The Chameleon. Pregunta a los niños si lo recuerdan y qué hacía la última vez que jugaron con él. Guía la conversación hacia la idea de que Dart "sigue líneas" o "sigue planes". <strong>(Proyectar Diapositiva 3: Foto de Dart The Chameleon)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, exploradores! ¡Miren a quién tenemos aquí! ¿Recuerdan a nuestro amigo Dart, el camaleón más aventurero del mundo? ¡Levante la mano quien se acuerde de Dart! (Espera respuestas). ¿Qué hacía Dart la última vez que jugó con nosotros? (Anima a los niños a recordar que Dart sigue líneas). ¡Eso es! Dart es un campeón siguiendo instrucciones, ¡como cuando sigue una línea que nosotros dibujamos! ¿Se acuerdan que dibujamos caminos para él? ¡Le encanta seguir nuestros planes!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Gran Misión del Día: Diseñando Caminos para Dart ⏰ 2 min</h3>
+<p>Introduce la misión del día: convertirse en "ingenieros de pistas" para Dart. Enfatiza que crearán diferentes tipos de caminos (rectos, curvos). <strong>(Proyectar Diapositiva 4: Imagen de un camino con líneas rectas y curvas)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Pues hoy, la misión es aún más emocionante! ¡Vamos a convertirnos en verdaderos ingenieros y a dibujar los planos más increíbles para que Dart los siga! Imaginen que son arquitectos de caminos. ¿Quién está listo para diseñar el camino perfecto para nuestro amigo camaleón? ¡Pueden hacer caminos rectos y rápidos, o caminos con muchas curvas para que Dart dé vueltas! ¡Será una aventura de trazos y descubrimientos! ¿Listos para usar su imaginación?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra! Diseñando la Pista Perfecta para Dart ⏰ 25 min</h2>
+<p>¡Es hora de desplegar nuestra creatividad y diseñar caminos asombrosos para que Dart demuestre sus habilidades de seguimiento!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando Nuestro Taller de Ingenieros ⏰ 5 min</h3>
+<p>Divide a los niños en grupos pequeños (2-3 niños por grupo). Entrega a cada grupo una hoja grande de papel (rotafolio) y marcadores negros gruesos. Explica la tarea: dibujar una pista continua para Dart, asegurándose de que la línea sea gruesa y negra. <strong>(Proyectar Diapositiva 5: Imagen de niños dibujando o materiales de arte)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo, llegó el momento estelar de nuestra misión! ¡Vamos a transformarnos en ingenieros de pistas de carreras! ¿Listos para diseñar los caminos más espectaculares para Dart? Aquí tenemos nuestro "taller de diseño": papel gigante y marcadores mágicos. Cada equipo va a dibujar una línea, ¡una pista continua para Dart! ¡Recuerden, la línea debe ser gordita y negra para que Dart la vea bien! ¡Si la línea es muy delgadita, Dart podría perderse! Asegúrense de que sea un camino sin interrupciones. ¡Manos a la obra, futuros programadores!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Creando Nuestras Pistas: Trazos Rectos y Curvos ⏰ 10 min</h3>
+<p>Mientras los niños dibujan, circula por los grupos, ofreciendo ayuda y animando la creatividad. Pregunta sobre sus diseños: "¿Será una pista recta o con muchas curvas?" Recuérdales que la línea debe ser continua y bien marcada. <strong>(Proyectar Diapositiva 6: Ejemplos de caminos rectos y curvos)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué ingenieros tan talentosos tenemos aquí! ¡Miren esas pistas, son una obra de arte! ¿Están haciendo una pista recta como una autopista, o una llena de curvas como una montaña rusa? ¡Recuerden que la línea debe estar bien unida, sin espacios, para que Dart no se pierda! ¡Y que sea bien gordita, para que Dart la vea clarito! ¡Pueden hacerla larga, corta, con giros inesperados! ¡Ustedes son los artistas del camino!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡A Probar! La Emocionante Prueba de Dart ⏰ 10 min</h3>
+<p>Una vez que las pistas estén dibujadas, ayuda a los grupos a probar sus creaciones. Indica cómo colocar a Dart correctamente al inicio de la línea y observen cómo la sigue. Anima a los niños a hacer ajustes si es necesario (ej. hacer la línea más gruesa) y a probar diferentes tipos de líneas. Integra la estrategia de transición: anímalos a añadir dibujos de gradas o árboles alrededor de la pista (fuera de la línea negra) para que parezca un autódromo. <strong>(Proyectar Diapositiva 7: Dart siguiendo una línea)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ahora viene la parte más emocionante: la prueba! Vamos a colocar a Dart al inicio de su pista. ¡A ver si sigue el plan que ustedes diseñaron! Para que Dart empiece bien, pónganlo justo encima del comienzo de su línea. ¡No olviden colocar a Dart con mucho cuidado al principio! ¡Si Dart se sale del camino, no se preocupen! ¡Eso es parte de ser ingenieros! ¿Qué podemos hacer para que Dart siga mejor? ¿La línea es lo suficientemente gruesa? ¡Podemos arreglarla! ¡Y para que su pista sea aún más divertida, pueden añadir dibujos de gradas, árboles o público alrededor de la pista, fuera de la línea negra, para que parezca un autódromo de verdad! ¡Qué gran idea! ¿Qué pasó? ¿Siguió el camino? ¡Excelente trabajo, equipo! ¡Cada trazo es un paso más en nuestra aventura de programar!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida! Compartiendo Nuestros Descubrimientos ⏰ 5 min</h2>
+<p>Celebremos nuestros logros y compartamos las increíbles pistas que diseñamos para nuestro amigo Dart.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Nuestros Diseños: La Exposición de Pistas ⏰ 3 min</h3>
+<p>Pide a cada grupo que muestre su pista al resto de la clase y explique brevemente cómo la diseñaron. Haz preguntas como: "¿La hicieron con muchas curvas o rectas?" y "¿Dart siguió el plan que crearon?". <strong>(Proyectar Diapositiva 8: Niños compartiendo sus trabajos)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de ingenieros geniales! ¡La misión ha sido un éxito rotundo! Ahora, ¿quién quiere contarnos sobre su increíble pista? ¡Vengan, acérquense para que todos podamos verla! Cuéntennos, ¿su pista tiene muchas curvas emocionantes o es más bien derechita como un camino? ¿Y lo más importante, qué tal le fue a Dart? ¿Siguió el plan que ustedes dibujaron? ¡Cuéntenme todo, estoy súper emocionado de ver sus creaciones! ¡Cada pista es única y especial!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión Final: ¡Somos Programadores de Aventuras! ⏰ 2 min</h3>
+<p>Felicita a todos por su esfuerzo, creatividad y por haber "programado" a Dart al dibujar un camino para él. Refuerza la conexión entre dibujar un camino y dar instrucciones a un robot. <strong>(Proyectar Diapositiva 9: Título de Cierre y Celebración)</strong></p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, bravo, BRAVO! ¡Qué artistas y qué programadores tan listos tenemos aquí! ¡Cada uno de ustedes diseñó un camino único para Dart y lo ayudó a seguir un plan! ¡Eso es programar! ¿Se dan cuenta de lo poderosos que son? ¡Con un simple trazo, hicieron que Dart se moviera exactamente como ustedes querían! ¡Son unos genios! ¡Misión de programación y diseño de pistas... CUMPLIDA! ¡Un aplauso gigante para todos ustedes, equipo! ¡Han creado secuencias visuales increíbles!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
